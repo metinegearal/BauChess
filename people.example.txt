@@ -1,0 +1,2 @@
+# Add one Chess.com username per line; comments and blank lines are ignored.
+example-player

@@ -1,0 +1,11 @@
+python-chess==1.999
+numpy==2.3.3
+pandas==2.3.3
+pymongo==4.15.2
+selenium==4.36.0
+python-dotenv==1.1.1
+requests==2.32.5
+fastapi==0.117.1
+uvicorn==0.37.0
+streamlit==1.50.0
+plotly==6.3.1

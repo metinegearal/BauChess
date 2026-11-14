@@ -1,0 +1,6 @@
+#root { width: 100%; padding: 24px; box-sizing: border-box; }
+aside { background: #f1f5f2; border-radius: 10px; align-self: flex-start; }
+aside label { display: block; margin: 18px 0; font-weight: 600; }
+aside input { display: block; width: 100%; box-sizing: border-box; margin-top: 6px; padding: 8px; border: 1px solid #bbc8c0; border-radius: 5px; font: inherit; }
+aside p { font-size: 14px; }
+[role="alert"] { color: #a12222; }

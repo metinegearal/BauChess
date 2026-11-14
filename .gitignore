@@ -1,0 +1,83 @@
+# Python environments, caches, and packaging
+envChessBau/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# JavaScript dependencies and desktop packages
+node_modules/
+dist-ssr/
+release/
+out/
+*.AppImage
+*.deb
+*.dmg
+*.exe
+
+# Local configuration and credentials (keep templates)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+.local-archive/
+
+# Collected games, private rosters, and generated reports
+/Data/*
+!/Data/openings.csv
+/BackEnd/Data/
+/PgnData/
+people.txt
+/Stats.csv
+/TestTxt.txt
+/my-app/public/PgnData/
+
+# Airflow runtime state
+/airflow/
+logs/
+*.log
+*.db
+*.db-shm
+*.db-wal
+airflow.cfg
+webserver_config.py
+airflow-webserver.pid
+
+# Earlier copies; the root modules are the shared implementation
+/Dags/ChessTools.py
+/Dags/DataProcess.py
+/Dags/DataStorage.py
+/Dags/ScrapChessData.py
+/Dags/StockFishReview.py
+/BackEnd/ChessTools.py
+/BackEnd/DataProcess.py
+/BackEnd/StockFishReview.py
+/my-app/app/
+
+# Personal notes and experiments outside the running pipeline/viewer
+/ChessCourse.md
+/NotesForLLM.md
+/System.md
+/ChessBoardUI.py
+/chessBoardDetect.ipynb
+/chess_yolo.pt
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
